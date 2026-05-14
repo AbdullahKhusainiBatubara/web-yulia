@@ -40,7 +40,6 @@
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: var(--cream-dark); }
         ::-webkit-scrollbar-thumb { background: var(--brown); border-radius: 3px; }
-
         /* NAVBAR */
         nav { position: fixed; top: 0; width: 100%; z-index: 1000; background: var(--brown-dark); padding: 0.9rem 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 20px rgba(0,0,0,0.3); }
         .logo { font-family: 'Fraunces', serif; font-size: 1.7rem; color: #FDF6EC; text-decoration: none; display: flex; align-items: center; gap: 10px; }
@@ -62,7 +61,6 @@
         .mobile-menu { display: none; position: fixed; top: 60px; left: 0; width: 100%; background: var(--brown-dark); padding: 1rem 5%; z-index: 999; flex-direction: column; gap: 1rem; box-shadow: 0 8px 20px rgba(0,0,0,0.3); }
         .mobile-menu.open { display: flex; }
         .mobile-menu a { color: rgba(253,246,236,0.85); text-decoration: none; font-weight: 500; font-size: 1rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
-
         /* HERO */
         #home { height: 100vh; background: linear-gradient(to bottom, rgba(28,18,9,0.65) 0%, rgba(90,51,9,0.45) 100%), url('pict/sawit 1.jpeg') no-repeat center/cover; display: flex; align-items: center; padding: 0 5%; }
         .hero-content { max-width: 650px; }
@@ -79,13 +77,11 @@
         .stat-item { color: white; }
         .stat-num { font-family: 'Fraunces', serif; font-size: 2rem; font-weight: 900; color: var(--gold); }
         .stat-label { font-size: 0.8rem; opacity: 0.7; margin-top: 2px; }
-
         /* SECTIONS */
         section { padding: 6rem 5%; }
         .section-header { text-align: center; margin-bottom: 3rem; }
         .section-header h2 { font-family: 'Fraunces', serif; font-size: clamp(1.8rem, 4vw, 2.8rem); margin-bottom: 0.5rem; }
         .section-header p { color: var(--text-muted); font-size: 1rem; }
-
         /* FILTERS */
         #products { background: var(--cream); }
         .filters-bar { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between; margin-bottom: 2.5rem; padding: 1.2rem 1.5rem; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow-sm); }
@@ -96,7 +92,6 @@
         .price-group { display: flex; align-items: center; gap: 0.75rem; font-size: 0.85rem; color: var(--text-muted); }
         .price-group input[type="range"] { width: 140px; accent-color: var(--brown); cursor: pointer; border: none; }
         #price-label { font-weight: 700; color: var(--brown); min-width: 100px; }
-
         /* PRODUCT GRID */
         .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.8rem; }
         .product-card { background: var(--surface); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm); transition: var(--transition); position: relative; border: 1px solid var(--cream-dark); }
@@ -109,7 +104,6 @@
         .product-img-wrap:hover .change-img-btn { opacity: 1; }
         /* loading skeleton per gambar */
         .img-loading-overlay { position: absolute; inset: 0; background: var(--cream-dark); display: flex; align-items: center; justify-content: center; font-size: 0.8rem; color: var(--text-muted); pointer-events: none; }
-
         .product-info { padding: 1.2rem; }
         .product-cat { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1.5px; font-weight: 600; }
         .product-name { font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 700; margin: 0.35rem 0 0.4rem; line-height: 1.3; }
@@ -124,7 +118,6 @@
         .add-to-cart:active { transform: scale(0.97); }
         .no-results { grid-column: 1/-1; text-align: center; padding: 3rem; color: var(--text-muted); }
         .no-results i { font-size: 3rem; margin-bottom: 1rem; display: block; }
-
         /* ABOUT */
         #about { background: var(--cream-dark); }
         .about-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 4rem; align-items: center; }
@@ -136,7 +129,6 @@
         .feat-item i { color: var(--green); font-size: 1.2rem; margin-top: 2px; flex-shrink: 0; }
         .feat-item p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; }
         .feat-item strong { display: block; color: var(--text); margin-bottom: 2px; font-weight: 600; }
-
         /* CONTACT */
         #contact { background: var(--cream); }
         .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; max-width: 900px; margin: 0 auto; }
@@ -146,7 +138,6 @@
         .contact-card h3 { font-family: 'Fraunces', serif; margin-bottom: 0.5rem; }
         .contact-card a { color: white; text-decoration: none; }
         .contact-card p { font-size: 0.9rem; opacity: 0.9; }
-
         /* ORDERS */
         #orders { background: var(--cream-dark); }
         .order-card { background: var(--surface); border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1rem; box-shadow: var(--shadow-sm); border: 1px solid var(--cream-dark); }
@@ -170,7 +161,6 @@
         .status-btn.active { background: var(--brown); border-color: var(--brown); color: white; }
         .order-empty { text-align: center; color: var(--text-muted); padding: 3rem; }
         .order-empty i { font-size: 3rem; display: block; margin-bottom: 1rem; }
-
         /* CART SIDEBAR */
         .cart-overlay { position: fixed; top: 0; right: -100%; width: 100%; max-width: 400px; height: 100vh; background: var(--surface); z-index: 2000; box-shadow: -5px 0 40px rgba(0,0,0,0.15); transition: right 0.35s cubic-bezier(0.4,0,0.2,1); display: flex; flex-direction: column; }
         .cart-overlay.active { right: 0; }
@@ -210,7 +200,6 @@
         .btn-checkout-main:hover { background: var(--brown-dark); }
         .backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 1999; opacity: 0; pointer-events: none; transition: opacity 0.3s; }
         .backdrop.active { opacity: 1; pointer-events: all; }
-
         /* CHECKOUT MODAL */
         #checkout-modal { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 3000; display: none; align-items: center; justify-content: center; padding: 1rem; }
         #checkout-modal.open { display: flex; }
@@ -243,21 +232,18 @@
         @keyframes pop-in { 0% { transform: scale(0); } 100% { transform: scale(1); } }
         .success-screen h2 { font-family: 'Fraunces', serif; font-size: 1.6rem; margin-bottom: 0.5rem; }
         .success-screen p { color: var(--text-muted); }
-
         /* IMAGE MANAGER MODAL */
         #img-manager-modal { position: fixed; inset: 0; background: rgba(0,0,0,0.75); z-index: 5000; display: none; align-items: center; justify-content: center; padding: 1rem; }
         #img-manager-modal.open { display: flex; }
         .img-manager-box { background: var(--surface); border-radius: 20px; width: 100%; max-width: 520px; max-height: 90vh; overflow-y: auto; padding: 2rem; box-shadow: var(--shadow-lg); }
         .img-manager-box h3 { font-family: 'Fraunces', serif; font-size: 1.3rem; margin-bottom: 0.4rem; }
         .img-manager-subtitle { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; }
-
         /* TAB SELECTOR */
         .tab-group { display: flex; gap: 0; border-radius: 10px; overflow: hidden; border: 1.5px solid var(--cream-dark); margin-bottom: 1.5rem; }
         .tab-btn { flex: 1; padding: 0.6rem 0.8rem; border: none; background: transparent; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 0.82rem; font-weight: 600; color: var(--text-muted); transition: var(--transition); }
         .tab-btn.active { background: var(--brown); color: white; }
         .tab-pane { display: none; }
         .tab-pane.active { display: block; }
-
         /* STORAGE INFO BAR */
         .storage-bar-wrap { margin-bottom: 1.2rem; }
         .storage-bar-label { font-size: 0.78rem; color: var(--text-muted); margin-bottom: 0.3rem; display: flex; justify-content: space-between; }
@@ -265,7 +251,6 @@
         .storage-bar-fill { height: 100%; background: var(--green); border-radius: 3px; transition: width 0.4s; }
         .storage-bar-fill.warn { background: var(--gold); }
         .storage-bar-fill.danger { background: var(--red); }
-
         /* DROP ZONE */
         .drop-zone { border: 2px dashed var(--cream-dark); border-radius: 12px; padding: 2.5rem 1rem; text-align: center; cursor: pointer; transition: var(--transition); color: var(--text-muted); background: var(--cream); }
         .drop-zone:hover, .drop-zone.drag-over { border-color: var(--brown); background: var(--cream-dark); }
@@ -273,7 +258,6 @@
         .drop-zone p { margin: 0; font-size: 0.9rem; }
         .drop-zone small { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.3rem; display: block; }
         #hidden-file-input { display: none; }
-
         /* URL INPUT */
         .url-input-wrap { display: flex; gap: 0.6rem; }
         .url-input-wrap input { flex: 1; padding: 0.7rem 1rem; background: var(--cream); border: 1.5px solid var(--cream-dark); border-radius: 10px; color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 0.88rem; outline: none; transition: var(--transition); }
@@ -281,12 +265,10 @@
         .url-input-wrap input::placeholder { color: var(--text-muted); }
         .btn-load-url { padding: 0.7rem 1.2rem; background: var(--brown); color: white; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 0.82rem; transition: var(--transition); white-space: nowrap; }
         .btn-load-url:hover { background: var(--brown-dark); }
-
         /* PREVIEW */
         .img-preview-wrap { margin-top: 1.2rem; display: none; border-radius: 12px; overflow: hidden; border: 1px solid var(--cream-dark); position: relative; }
         .img-preview-wrap img { width: 100%; height: 200px; object-fit: cover; display: block; }
         .preview-size-badge { position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white; font-size: 0.72rem; padding: 3px 9px; border-radius: 6px; font-weight: 600; }
-
         /* SAVED IMAGES LIST */
         .saved-imgs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap: 8px; margin-top: 0.8rem; max-height: 280px; overflow-y: auto; }
         .saved-img-item { position: relative; border-radius: 8px; overflow: hidden; border: 2px solid transparent; cursor: pointer; transition: var(--transition); aspect-ratio: 1; }
@@ -295,7 +277,6 @@
         .saved-img-item .del-btn { position: absolute; top: 2px; right: 2px; width: 18px; height: 18px; border-radius: 50%; background: rgba(229,62,62,0.9); color: white; border: none; cursor: pointer; font-size: 0.7rem; display: none; align-items: center; justify-content: center; }
         .saved-img-item:hover .del-btn { display: flex; }
         .saved-img-item .img-name { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.55); color: white; font-size: 0.6rem; padding: 2px 4px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
-
         /* IMG MANAGER ACTIONS */
         .img-manager-actions { display: flex; gap: 0.8rem; margin-top: 1.5rem; }
         .btn-save-img { flex: 2; padding: 0.8rem; background: var(--brown); color: white; border: none; border-radius: 12px; font-weight: 700; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 0.9rem; transition: var(--transition); display: flex; align-items: center; justify-content: center; gap: 8px; }
@@ -303,17 +284,14 @@
         .btn-save-img:disabled { opacity: 0.5; cursor: not-allowed; }
         .btn-cancel-img { flex: 1; padding: 0.8rem; background: var(--cream-dark); color: var(--text-muted); border: none; border-radius: 12px; font-weight: 700; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: var(--transition); }
         .btn-cancel-img:hover { background: var(--cream); color: var(--text); }
-
         /* INFO BAR */
         .pict-info-bar { background: linear-gradient(90deg, var(--brown-dark), var(--brown)); color: white; text-align: center; padding: 0.6rem 5%; font-size: 0.82rem; display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; }
         .pict-info-bar code { background: rgba(255,255,255,0.18); padding: 1px 6px; border-radius: 4px; }
         .pict-info-bar strong { color: var(--gold); }
-
         /* TOAST */
         #toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%) translateY(100px); background: var(--brown-dark); color: white; padding: 12px 24px; border-radius: 50px; z-index: 9999; font-weight: 600; font-size: 0.9rem; box-shadow: 0 8px 25px rgba(0,0,0,0.25); display: flex; align-items: center; gap: 8px; transition: transform 0.35s cubic-bezier(0.4,0,0.2,1); white-space: nowrap; max-width: 90vw; }
         #toast.show { transform: translateX(-50%) translateY(0); }
         #toast i { color: var(--gold); }
-
         /* FOOTER */
         footer { background: var(--brown-dark); color: rgba(253,246,236,0.8); padding: 4rem 5% 2rem; }
         .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 3rem; margin-bottom: 2.5rem; }
@@ -323,7 +301,6 @@
         .footer-col a, .footer-col p { display: block; font-size: 0.88rem; margin-bottom: 0.5rem; color: rgba(253,246,236,0.65); text-decoration: none; transition: var(--transition); }
         .footer-col a:hover { color: var(--gold); }
         .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; text-align: center; font-size: 0.85rem; color: rgba(253,246,236,0.45); }
-
         /* RESPONSIVE */
         @media (max-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr; } .footer-brand { grid-column: 1/-1; } }
         @media (max-width: 768px) { .nav-links { display: none; } .hamburger { display: flex; } section { padding: 4rem 5%; } .filters-bar { flex-direction: column; align-items: flex-start; } .about-features { grid-template-columns: 1fr; } .hero-stats { gap: 1.5rem; } }
@@ -331,12 +308,10 @@
     </style>
 </head>
 <body class="light-mode">
-
 <div class="pict-info-bar">
     <i class="ph ph-database" style="font-size:1rem;"></i>
     
 </div>
-
 <!-- NAVBAR -->
 <nav id="navbar">
     <a href="#" class="logo"><i class="ph-fill ph-leaf"></i> SawitMart</a>
@@ -368,7 +343,6 @@
         </div>
     </div>
 </nav>
-
 <div class="mobile-menu" id="mobile-menu">
     <a href="#home" onclick="toggleMenu()">Home</a>
     <a href="#products" onclick="toggleMenu()">Produk</a>
@@ -376,7 +350,6 @@
     <a href="#contact" onclick="toggleMenu()">Kontak</a>
     <a href="#orders" onclick="toggleMenu()">Pesanan Saya</a>
 </div>
-
 <!-- HERO -->
 <section id="home">
     <div class="hero-content">
@@ -394,7 +367,6 @@
         </div>
     </div>
 </section>
-
 <!-- PRODUCTS -->
 <section id="products">
     <div class="section-header">
@@ -417,11 +389,10 @@
     </div>
     <div class="product-grid" id="product-container"></div>
 </section>
-
 <!-- ABOUT -->
 <section id="about">
     <div class="about-grid">
-        <div><img src="pict/sawit 2.jpeg" alt="Tentang SawitMart" class="about-img" onerror="this.src='https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=600&q=80'"></div>
+        <div><img src="pict/sawit 2.jpeg" alt="Tentang SawitMart" class="about-img" ></div>
         <div class="about-text">
             <h2>Tentang SawitMart</h2>
             <p>SawitMart adalah platform e-commerce pionir yang berdedikasi untuk memajukan industri hilirisasi kelapa sawit di Indonesia. Kami percaya bahwa setiap bagian dari pohon kelapa sawit memiliki nilai ekonomi yang tinggi.</p>
@@ -435,7 +406,6 @@
         </div>
     </div>
 </section>
-
 <!-- CONTACT -->
 <section id="contact">
     <div class="section-header"><h2>Hubungi Kami</h2><p>Kami siap membantu kebutuhan sawit Anda</p></div>
@@ -445,13 +415,11 @@
         <div class="contact-card" style="background: var(--green);"><i class="ph ph-map-pin"></i><h3>Lokasi</h3><p>Jakarta Selatan, Indonesia</p></div>
     </div>
 </section>
-
 <!-- ORDERS -->
 <section id="orders">
     <div class="section-header"><h2>Pesanan Saya</h2><p>Lacak status pengiriman pesanan Anda</p></div>
     <div id="order-list"></div>
 </section>
-
 <!-- FOOTER -->
 <footer>
     <div class="footer-grid">
@@ -464,7 +432,6 @@
     </div>
     <div class="footer-bottom">&copy; 2026 SawitMart. All Rights Reserved.</div>
 </footer>
-
 <!-- CART SIDEBAR -->
 <div class="backdrop" id="backdrop" onclick="toggleCart()"></div>
 <div class="cart-overlay" id="cart-sidebar">
@@ -492,7 +459,6 @@
         <button class="btn-checkout-main" onclick="openCheckout()"><i class="ph-bold ph-credit-card"></i> Checkout Sekarang</button>
     </div>
 </div>
-
 <!-- CHECKOUT MODAL -->
 <div id="checkout-modal">
     <div class="checkout-container" id="checkout-inner">
@@ -525,14 +491,12 @@
         </div>
     </div>
 </div>
-
 <!-- IMAGE MANAGER MODAL -->
 <div id="img-manager-modal">
     <div class="img-manager-box">
         <h3><i class="ph ph-image" style="color:var(--brown);vertical-align:middle;margin-right:6px;"></i>Ganti Foto Produk</h3>
         <p id="img-manager-product-name" style="color:var(--brown); font-weight:700; font-size:0.95rem; margin:4px 0 2px;"></p>
         <p class="img-manager-subtitle">Foto tersimpan di IndexedDB browser — bisa menampung ratusan MB bahkan GB.</p>
-
         <!-- Storage usage bar -->
         <div class="storage-bar-wrap" id="storage-bar-wrap">
             <div class="storage-bar-label">
@@ -543,14 +507,12 @@
                 <div class="storage-bar-fill" id="storage-bar-fill" style="width:0%"></div>
             </div>
         </div>
-
         <!-- TABS -->
         <div class="tab-group">
             <button class="tab-btn active" onclick="switchTab('upload', this)"><i class="ph ph-upload-simple"></i> Upload File</button>
             <button class="tab-btn" onclick="switchTab('url', this)"><i class="ph ph-link"></i> Pakai URL</button>
             <button class="tab-btn" onclick="switchTab('saved', this)"><i class="ph ph-images"></i> Foto Tersimpan</button>
         </div>
-
         <!-- TAB: Upload -->
         <div class="tab-pane active" id="tab-upload">
             <div class="drop-zone" id="drop-zone" onclick="document.getElementById('hidden-file-input').click()">
@@ -560,7 +522,6 @@
             </div>
             <input type="file" id="hidden-file-input" accept="image/jpeg,image/png,image/webp,image/gif">
         </div>
-
         <!-- TAB: URL -->
         <div class="tab-pane" id="tab-url">
             <p style="font-size:0.83rem; color:var(--text-muted); margin-bottom:0.8rem;">Tempel link gambar dari internet. Gambar akan di-cache di browser sehingga tidak perlu koneksi terus-menerus.</p>
@@ -569,7 +530,6 @@
                 <button class="btn-load-url" onclick="loadImageFromURL()">Muat</button>
             </div>
         </div>
-
         <!-- TAB: Saved -->
         <div class="tab-pane" id="tab-saved">
             <p style="font-size:0.83rem; color:var(--text-muted); margin-bottom:0.8rem;">Pilih foto yang sudah tersimpan, atau hapus foto yang tidak dipakai untuk bebaskan ruang.</p>
@@ -577,13 +537,11 @@
                 <p style="font-size:0.82rem; color:var(--text-muted); grid-column:1/-1;">Memuat...</p>
             </div>
         </div>
-
         <!-- Preview area (shared) -->
         <div class="img-preview-wrap" id="img-preview-wrap">
             <img id="img-preview" src="" alt="Preview">
             <span class="preview-size-badge" id="preview-size-badge"></span>
         </div>
-
         <div class="img-manager-actions">
             <button class="btn-cancel-img" onclick="closeImgManager()">Batal</button>
             <button class="btn-save-img" id="btn-save-img" disabled onclick="saveProductImage()">
@@ -592,10 +550,8 @@
         </div>
     </div>
 </div>
-
 <!-- TOAST -->
 <div id="toast"><i class="ph-fill ph-check-circle"></i> <span id="toast-msg">Berhasil!</span></div>
-
 <script>
 /* =========================================================
    INDEXEDDB LAYER
@@ -606,7 +562,6 @@ const DB_NAME    = 'sawitmart_images';
 const DB_VERSION = 1;
 const STORE_NAME = 'product_images';
 let db = null;
-
 function openDB() {
     return new Promise((resolve, reject) => {
         if (db) { resolve(db); return; }
@@ -621,7 +576,6 @@ function openDB() {
         req.onerror   = e => reject(e.target.error);
     });
 }
-
 async function dbPut(record) {
     const d     = await openDB();
     return new Promise((resolve, reject) => {
@@ -631,7 +585,6 @@ async function dbPut(record) {
         tx.onerror    = e => reject(e.target.error);
     });
 }
-
 async function dbGet(id) {
     const d = await openDB();
     return new Promise((resolve, reject) => {
@@ -640,7 +593,6 @@ async function dbGet(id) {
         req.onerror   = e => reject(e.target.error);
     });
 }
-
 async function dbDelete(id) {
     const d = await openDB();
     return new Promise((resolve, reject) => {
@@ -650,7 +602,6 @@ async function dbDelete(id) {
         tx.onerror    = e => reject(e.target.error);
     });
 }
-
 async function dbGetAll() {
     const d = await openDB();
     return new Promise((resolve, reject) => {
@@ -659,10 +610,8 @@ async function dbGetAll() {
         req.onerror   = e => reject(e.target.error);
     });
 }
-
 /* ObjectURL cache — avoid re-creating blobs every render */
 const blobURLCache = {};
-
 async function getImageSrc(productId) {
     if (blobURLCache[productId]) return blobURLCache[productId];
     const record = await dbGet(productId);
@@ -675,59 +624,57 @@ async function getImageSrc(productId) {
     }
     return null;
 }
-
 /* =========================================================
    PRODUCT DATA
    ========================================================= */
 const productsData = [
-    { id: 1,  name: "Bibit Sawit DxP Premium",       price: 245000,  cat: "bibit",   subcat: "unggul",   rating: 4.8, stock: 120, desc: "Bibit sawit unggul tahan hama, hasil tinggi" },
-    { id: 2,  name: "Bibit Sawit Sriwijaya",          price: 155000,  cat: "bibit",   subcat: "unggul",   rating: 4.9, stock: 80,  desc: "Cocok untuk lahan gambut & berawa" },
-    { id: 3,  name: "Bibit Sawit Tenera Unggul",      price: 265000,  cat: "bibit",   subcat: "tenera",   rating: 4.7, stock: 60,  desc: "Varietas tenera dengan kandungan minyak tinggi" },
-    { id: 4,  name: "Bibit Sawit Compact Dwarf",      price: 380000,  cat: "bibit",   subcat: "dwarf",    rating: 4.6, stock: 40,  desc: "Pohon pendek, mudah dipanen" },
-    { id: 5,  name: "Bibit Sawit Socfindo 150 butir", price: 200000, cat: "bibit",   subcat: "unggul",   rating: 4.6, stock: 15,  desc: "Tahan penyakit pada sawit" },
-    { id: 6,  name: "Bibit Sawit Topaz",              price: 295000,  cat: "bibit",   subcat: "Topaz",    rating: 4.7, stock: 55,  desc: "Panen cepat" },
-    { id: 7,  name: "Bibit Sawit Lonsum",             price: 185000,  cat: "bibit",   subcat: "Lonsum",   rating: 4.8, stock: 25,  desc: "Kualitas ekspor" },
-    { id: 8,  name: "Bibit Sawit PPKS",               price: 128000,   cat: "bibit",   subcat: "PPKS",     rating: 4.6, stock: 22,  desc: "Resmi dan bersertifikat" },
-    { id: 9,  name: "Bibit Sawit Marihat",            price: 264000,  cat: "bibit",   subcat: "Marihat",  rating: 4.9, stock: 41,  desc: "Produktivitas tinggi" },
-    { id: 10, name: "Bibit Sawit Unggul Super",       price: 395000,  cat: "bibit",   subcat: "Super",    rating: 4.9, stock: 100, desc: "Panen maksimal" },
-    { id: 11, name: "Paperbag Apkasindo",             price: 15000,  cat: "GROWVII", subcat: "GROWVII",  rating: 4.6, stock: 200, desc: "Kertasnya bisa ditanam setelah digunakan" },
-    { id: 12, name: "Small Paperbag",                 price: 220000,  cat: "GROWVII", subcat: "GROWVII",  rating: 4.9, stock: 60,  desc: "Kertasnya bisa ditanam setelah digunakan" },
-    { id: 13, name: "Paperbag",                       price: 215000,  cat: "GROWVII", subcat: "GROWVII",  rating: 4.7, stock: 90,  desc: "Kertasnya bisa ditanam setelah digunakan" },
-    { id: 14, name: "Notebook B1",                    price: 10000,  cat: "GROWVII", subcat: "GROWVII",  rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan" },
-    { id: 15, name: "Paperbag ITSI",                  price: 15000,  cat: "GROWVII", subcat: "GROWVII",  rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan" },
-    { id: 16, name: "Paperbag KAI EXPO",              price: 15000,  cat: "GROWVII", subcat: "GROWVII",  rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan" },
-    { id: 17, name: "Paperbag Growvii",               price: 15000,  cat: "GROWVII", subcat: "GROWVII",  rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan" },
-    { id: 18, name: "Paperbag SCSN",                  price: 15000,  cat: "GROWVII", subcat: "GROWVII",  rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan" },
-    { id: 19, name: "Kertas Polos",                   price: 8000,   cat: "GROWVII", subcat: "GROWVII",  rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan" },
-    { id: 20, name: "Notebook",                       price: 12000,  cat: "GROWVII", subcat: "GROWVII",  rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan" },
-    { id: 21, name: "Pot Tanam",                      price: 20000,  cat: "GROWVII", subcat: "GROWVII",  rating: 4.8, stock: 45,  desc: "Pot tanam ramah lingkungan" },
-    { id: 22, name: "Pot Tanam + Biji",               price: 25000,  cat: "GROWVII", subcat: "GROWVII",  rating: 4.8, stock: 45,  desc: "Lengkap dengan biji tanaman" },
-    { id: 23, name: "Minyak Goreng 2L",               price: 38000,  cat: "masakan", subcat: "minyak",   rating: 4.9, stock: 300, desc: "Minyak sawit berkualitas tinggi, jernih" },
-    { id: 24, name: "Margarin Sawit Premium",         price: 22000,  cat: "masakan", subcat: "margarin", rating: 4.7, stock: 180, desc: "Margarin lezat untuk masak & kue" },
-    { id: 25, name: "Shortening Nabati 1kg",          price: 48000,  cat: "masakan", subcat: "shortening",rating:4.6, stock: 90,  desc: "Untuk pembuatan roti & pastri" },
-    { id: 26, name: "Minyak RBD 5L Curah",            price: 95000,  cat: "masakan", subcat: "minyak",   rating: 4.8, stock: 200, desc: "Minyak RBD untuk kebutuhan industri" },
-    { id: 27, name: "Minyak Goreng Kemasan 1L",       price: 22000,  cat: "masakan", subcat: "minyak",   rating: 4.7, stock: 150, desc: "Praktis untuk rumah tangga" },
-    { id: 28, name: "Minyak Goreng 5L Galon",         price: 85000,  cat: "masakan", subcat: "minyak",   rating: 4.8, stock: 120, desc: "Ekonomis untuk usaha kuliner" },
-    { id: 29, name: "Mentega Sawit 200g",             price: 18000,  cat: "masakan", subcat: "margarin", rating: 4.6, stock: 200, desc: "Mentega segar untuk olesan roti" },
-    { id: 30, name: "Lemak Sawit Curah 1kg",          price: 32000,  cat: "masakan", subcat: "shortening",rating:4.5, stock: 80,  desc: "Untuk industri makanan" },
-    { id: 31, name: "Minyak Kelapa Sawit Murni",      price: 55000,  cat: "masakan", subcat: "minyak",   rating: 4.9, stock: 60,  desc: "Cold pressed, tanpa kimia" },
-    { id: 32, name: "Krim Sawit 500ml",               price: 28000,  cat: "masakan", subcat: "lainnya",  rating: 4.7, stock: 90,  desc: "Krim serbaguna berbasis sawit" },
-    { id: 33, name: "Minyak Goreng Premium 2L",       price: 45000,  cat: "masakan", subcat: "minyak",   rating: 4.8, stock: 110, desc: "Formula jernih tahan gorengan berulang" },
-    { id: 34, name: "Minyak Merah",                   price: 12000,  cat: "masakan", subcat: "lainnya",  rating: 4.6, stock: 250, desc: "Ramah lingkungan dari turunan sawit" },
-    { id: 35, name: "Egrek Sawit Profesional",        price: 385000, cat: "alat",    subcat: "panen",    rating: 4.9, stock: 25,  desc: "Alat panen sawit baja stainless berkualitas" },
-    { id: 36, name: "Sprayer Manual 16L",             price: 275000, cat: "alat",    subcat: "semprot",  rating: 4.7, stock: 55,  desc: "Sprayer untuk pemupukan & pestisida" },
-    { id: 37, name: "Cangkul Kebun Heavy Duty",       price: 165000, cat: "alat",    subcat: "kebun",    rating: 4.5, stock: 80,  desc: "Cangkul kuat untuk tanah perkebunan" },
-    { id: 38, name: "Parang Sawit Gagang Panjang",    price: 220000, cat: "alat",    subcat: "kebun",    rating: 4.6, stock: 40,  desc: "Parang khusus perkebunan sawit" },
-    { id: 39, name: "Sprayer Elektrik 16L",           price: 248000, cat: "alat",    subcat: "semprot",  rating: 4.8, stock: 30,  desc: "Otomatis, hemat tenaga" },
-    { id: 40, name: "Dodos Panen Mini",               price: 175000, cat: "alat",    subcat: "panen",    rating: 4.7, stock: 45,  desc: "Untuk tanaman sawit muda" },
-    { id: 41, name: "Timbangan Kebun 50kg",           price: 920000, cat: "alat",    subcat: "kebun",    rating: 4.6, stock: 20,  desc: "Timbangan digital akurat" },
-    { id: 42, name: "Cutter Pelepah Sawit",           price: 113500, cat: "alat",    subcat: "kebun",    rating: 4.5, stock: 60,  desc: "Potong pelepah dengan mudah" },
-    { id: 43, name: "Angkong Sawit 200kg",            price: 655000, cat: "alat",    subcat: "panen",    rating: 4.8, stock: 15,  desc: "Angkut TBS dengan efisien" },
-    { id: 44, name: "Sprayer Pintar IOT",            price:  215000, cat: "alat",    subcat: "semprot",  rating: 4.6, stock: 50,  desc: "Kapasitas besar, nyaman dipakai" },
-    { id: 45, name: "Sabit Rumput Kebun",             price: 285000,  cat: "alat",    subcat: "kebun",    rating: 4.4, stock: 75,  desc: "Untuk pembersihan gulma di kebun" },
-    { id: 46, name: "Topi Kebun Sawit",               price: 145000,  cat: "alat",    subcat: "kebun",    rating: 4.5, stock: 100, desc: "Pelindung kepala anti UV" },
+    { id: 1,  name: "Bibit Sawit DxP Premium",       price: 245000,  cat: "bibit",   subcat: "unggul",      rating: 4.8, stock: 120, desc: "Bibit sawit unggul tahan hama, hasil tinggi",         img: "pict/Bibit Sawit DxP Premium.jpg" },
+    { id: 2,  name: "Bibit Sawit Sriwijaya",          price: 155000,  cat: "bibit",   subcat: "unggul",      rating: 4.9, stock: 80,  desc: "Cocok untuk lahan gambut & berawa",                   img: "pict/Bibit Sawit Sriwijaya.jpg" },
+    { id: 3,  name: "Bibit Sawit Tenera Unggul",      price: 265000,  cat: "bibit",   subcat: "tenera",      rating: 4.7, stock: 60,  desc: "Varietas tenera dengan kandungan minyak tinggi",      img: "pict/Bibit Sawit Tenera Unggul.jpg" },
+    { id: 4,  name: "Bibit Sawit Compact Dwarf",      price: 380000,  cat: "bibit",   subcat: "dwarf",       rating: 4.6, stock: 40,  desc: "Pohon pendek, mudah dipanen",                         img: "pict/Bibit Sawit Compact Dwarf.jpg" },
+    { id: 5,  name: "Bibit Sawit Socfindo 150 butir", price: 200000,  cat: "bibit",   subcat: "unggul",      rating: 4.6, stock: 15,  desc: "Tahan penyakit pada sawit",                           img: "pict/Bibit Sawit Socfindo 150 butir.jpg" },
+    { id: 6,  name: "Bibit Sawit Topaz",              price: 295000,  cat: "bibit",   subcat: "Topaz",       rating: 4.7, stock: 55,  desc: "Panen cepat",                                         img: "pict/Bibit Sawit Topaz.jpg" },
+    { id: 7,  name: "Bibit Sawit Lonsum",             price: 185000,  cat: "bibit",   subcat: "Lonsum",      rating: 4.8, stock: 25,  desc: "Kualitas ekspor",                                     img: "pict/Bibit Sawit Lonsum.jpg" },
+    { id: 8,  name: "Bibit Sawit PPKS",               price: 128000,  cat: "bibit",   subcat: "PPKS",        rating: 4.6, stock: 22,  desc: "Resmi dan bersertifikat",                             img: "pict/Bibit Sawit PPKS.jpg" },
+    { id: 9,  name: "Bibit Sawit Marihat",            price: 264000,  cat: "bibit",   subcat: "Marihat",     rating: 4.9, stock: 41,  desc: "Produktivitas tinggi",                                img: "pict/Bibit Sawit Marihat.jpg" },
+    { id: 10, name: "Bibit Sawit Unggul Super",       price: 395000,  cat: "bibit",   subcat: "Super",       rating: 4.9, stock: 100, desc: "Panen maksimal",                                      img: "pict/Bibit Sawit Unggul Super.jpg" },
+    { id: 11, name: "Paperbag Apkasindo",             price: 15000,   cat: "GROWVII", subcat: "GROWVII",     rating: 4.6, stock: 200, desc: "Kertasnya bisa ditanam setelah digunakan",            img: "pict/Paperbag Apkasindo.jpg" },
+    { id: 12, name: "Small Paperbag",                 price: 220000,  cat: "GROWVII", subcat: "GROWVII",     rating: 4.9, stock: 60,  desc: "Kertasnya bisa ditanam setelah digunakan",            img: "pict/Small Paperbag.jpg" },
+    { id: 13, name: "Paperbag",                       price: 215000,  cat: "GROWVII", subcat: "GROWVII",     rating: 4.7, stock: 90,  desc: "Kertasnya bisa ditanam setelah digunakan",            img: "pict/Paperbag.jpg" },
+    { id: 14, name: "Notebook B1",                    price: 10000,   cat: "GROWVII", subcat: "GROWVII",     rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan",            img: "pict/Notebook B1.jpg" },
+    { id: 15, name: "Paperbag ITSI",                  price: 15000,   cat: "GROWVII", subcat: "GROWVII",     rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan",            img: "pict/Paperbag ITSI.jpg" },
+    { id: 16, name: "Paperbag KAI EXPO",              price: 15000,   cat: "GROWVII", subcat: "GROWVII",     rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan",            img: "pict/Paperbag KAI EXPO.jpg" },
+    { id: 17, name: "Paperbag Growvii",               price: 15000,   cat: "GROWVII", subcat: "GROWVII",     rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan",            img: "pict/Paperbag Growvii.jpg" },
+    { id: 18, name: "Paperbag SCSN",                  price: 15000,   cat: "GROWVII", subcat: "GROWVII",     rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan",            img: "pict/Paperbag SCSN.jpg" },
+    { id: 19, name: "Kertas Polos",                   price: 8000,    cat: "GROWVII", subcat: "GROWVII",     rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan",            img: "pict/Kertas Polos.jpg" },
+    { id: 20, name: "Notebook",                       price: 12000,   cat: "GROWVII", subcat: "GROWVII",     rating: 4.8, stock: 45,  desc: "Kertasnya bisa ditanam setelah digunakan",            img: "pict/Notebook.jpg" },
+    { id: 21, name: "Pot Tanam",                      price: 20000,   cat: "GROWVII", subcat: "GROWVII",     rating: 4.8, stock: 45,  desc: "Pot tanam ramah lingkungan",                          img: "pict/Pot Tanam.jpg" },
+    { id: 22, name: "Pot Tanam + Biji",               price: 25000,   cat: "GROWVII", subcat: "GROWVII",     rating: 4.8, stock: 45,  desc: "Lengkap dengan biji tanaman",                         img: "pict/Pot Tanam + Biji.jpg" },
+    { id: 23, name: "Minyak Goreng 2L",               price: 38000,   cat: "masakan", subcat: "minyak",      rating: 4.9, stock: 300, desc: "Minyak sawit berkualitas tinggi, jernih",             img: "pict/Minyak Goreng 2L.jpg" },
+    { id: 24, name: "Margarin Sawit Premium",         price: 22000,   cat: "masakan", subcat: "margarin",    rating: 4.7, stock: 180, desc: "Margarin lezat untuk masak & kue",                    img: "pict/Margarin Sawit Premium.jpg" },
+    { id: 25, name: "Shortening Nabati 1kg",          price: 48000,   cat: "masakan", subcat: "shortening",  rating: 4.6, stock: 90,  desc: "Untuk pembuatan roti & pastri" },
+    { id: 26, name: "Minyak RBD 5L Curah",            price: 95000,   cat: "masakan", subcat: "minyak",      rating: 4.8, stock: 200, desc: "Minyak RBD untuk kebutuhan industri",                 img: "pict/Minyak RBD 5L Curah.jpg" },
+    { id: 27, name: "Minyak Goreng Kemasan 1L",       price: 22000,   cat: "masakan", subcat: "minyak",      rating: 4.7, stock: 150, desc: "Praktis untuk rumah tangga",                          img: "pict/Minyak Goreng Kemasan 1L.jpg" },
+    { id: 28, name: "Minyak Goreng 5L Galon",         price: 85000,   cat: "masakan", subcat: "minyak",      rating: 4.8, stock: 120, desc: "Ekonomis untuk usaha kuliner",                        img: "pict/Minyak Goreng 5L Galon.jpg" },
+    { id: 29, name: "Mentega Sawit 200g",             price: 18000,   cat: "masakan", subcat: "margarin",    rating: 4.6, stock: 200, desc: "Mentega segar untuk olesan roti",                     img: "pict/Mentega Sawit 200g.jpg" },
+    { id: 30, name: "Lemak Sawit Curah 1kg",          price: 32000,   cat: "masakan", subcat: "shortening",  rating: 4.5, stock: 80,  desc: "Untuk industri makanan",                              img: "pict/Lemak Sawit Curah 1kg.jpg" },
+    { id: 31, name: "Minyak Kelapa Sawit Murni",      price: 55000,   cat: "masakan", subcat: "minyak",      rating: 4.9, stock: 60,  desc: "Cold pressed, tanpa kimia",                           img: "pict/Minyak Kelapa Sawit Murni.jpg" },
+    { id: 32, name: "Krim Sawit 500ml",               price: 28000,   cat: "masakan", subcat: "lainnya",     rating: 4.7, stock: 90,  desc: "Krim serbaguna berbasis sawit",                       img: "pict/Krim Sawit 500ml.jpg" },
+    { id: 33, name: "Minyak Goreng Premium 2L",       price: 45000,   cat: "masakan", subcat: "minyak",      rating: 4.8, stock: 110, desc: "Formula jernih tahan gorengan berulang",              img: "pict/Minyak Goreng Premium 2L.jpg" },
+    { id: 34, name: "Minyak Merah",                   price: 12000,   cat: "masakan", subcat: "lainnya",     rating: 4.6, stock: 250, desc: "Ramah lingkungan dari turunan sawit"   },
+    { id: 35, name: "Egrek Sawit Profesional",        price: 385000,  cat: "alat",    subcat: "panen",       rating: 4.9, stock: 25,  desc: "Alat panen sawit baja stainless berkualitas",         img: "pict/Egrek Sawit Profesional.jpg" },
+    { id: 36, name: "Sprayer Manual 16L",             price: 275000,  cat: "alat",    subcat: "semprot",     rating: 4.7, stock: 55,  desc: "Sprayer untuk pemupukan & pestisida",                 img: "pict/Sprayer Manual 16L.jpg" },
+    { id: 37, name: "Cangkul Kebun Heavy Duty",       price: 165000,  cat: "alat",    subcat: "kebun",       rating: 4.5, stock: 80,  desc: "Cangkul kuat untuk tanah perkebunan",                 img: "pict/Cangkul Kebun Heavy Duty.jpg" },
+    { id: 38, name: "Parang Sawit Gagang Panjang",    price: 220000,  cat: "alat",    subcat: "kebun",       rating: 4.6, stock: 40,  desc: "Parang khusus perkebunan sawit",                      img: "pict/Parang Sawit Gagang Panjang.jpg" },
+    { id: 39, name: "Sprayer Elektrik 16L",           price: 248000,  cat: "alat",    subcat: "semprot",     rating: 4.8, stock: 30,  desc: "Otomatis, hemat tenaga",                              img: "pict/Sprayer Elektrik 16L.webp" },
+    { id: 40, name: "Dodos Panen Mini",               price: 175000,  cat: "alat",    subcat: "panen",       rating: 4.7, stock: 45,  desc: "Untuk tanaman sawit muda",                            img: "pict/Dodos Panen Mini.jpg" },
+    { id: 41, name: "Timbangan Kebun 50kg",           price: 920000,  cat: "alat",    subcat: "kebun",       rating: 4.6, stock: 20,  desc: "Timbangan digital akurat",                            img: "pict/Timbangan Kebun 50kg.jpg" },
+    { id: 42, name: "Cutter Pelepah Sawit",           price: 113500,  cat: "alat",    subcat: "kebun",       rating: 4.5, stock: 60,  desc: "Potong pelepah dengan mudah",                         img: "pict/Cutter Pelepah Sawit.webp" },
+    { id: 43, name: "Angkong Sawit 200kg",            price: 655000,  cat: "alat",    subcat: "panen",       rating: 4.8, stock: 15,  desc: "Angkut TBS dengan efisien",                           img: "pict/Angkong Sawit 200kg.jpg" },
+    { id: 44, name: "Sprayer Pintar IOT",             price: 215000,  cat: "alat",    subcat: "semprot",     rating: 4.6, stock: 50,  desc: "Kapasitas besar, nyaman dipakai",                     img: "pict/Sprayer Pintar IOT.jpg" },
+    { id: 45, name: "Sabit Rumput Kebun",             price: 285000,  cat: "alat",    subcat: "kebun",       rating: 4.4, stock: 75,  desc: "Untuk pembersihan gulma di kebun",                    img: "pict/Sabit Rumput Kebun.webp" },
+    { id: 46, name: "Topi Kebun Sawit",               price: 145000,  cat: "alat",    subcat: "kebun",       rating: 4.5, stock: 100, desc: "Pelindung kepala anti UV",                            img: "pict/Topi Kebun Sawit.jpg" },
 ];
-
 const fallbackImages = {
     // Pakai gambar lokal agar semua produk yang belum punya foto di IndexedDB tampil dari folder pict/
     bibit:   'pict/Bibit Sawit DxP Premium.jpg',
@@ -735,7 +682,6 @@ const fallbackImages = {
     masakan: 'pict/Minyak Goreng Premium 2L.jpg',
     alat:    'pict/Sprayer Elektrik 16L.webp',
 };
-
 /* =========================================================
    STATE
    ========================================================= */
@@ -747,7 +693,6 @@ let currentMaxPrice  = 2000000;
 let currentEditId    = null;
 let pendingImageBlob = null;   // File object (upload)
 let pendingImageURL  = null;   // external URL string
-
 /* =========================================================
    INIT
    ========================================================= */
@@ -760,7 +705,6 @@ window.addEventListener('load', async () => {
     if (typeof emailjs !== 'undefined') emailjs.init("-iA1mxguvsJ0Jsyup");
     initDropZone();
 });
-
 /* =========================================================
    RENDER PRODUCTS  (async — loads images from IndexedDB)
    ========================================================= */
@@ -774,14 +718,13 @@ async function renderProducts() {
         container.innerHTML = `<div class="no-results"><i class="ph ph-magnifying-glass"></i><p>Tidak ada produk ditemukan</p></div>`;
         return;
     }
-
     // Render skeleton cards first so layout appears immediately
     filtered.forEach(p => {
         const fb = fallbackImages[p.cat] || fallbackImages.alat;
         container.innerHTML += `
         <div class="product-card" id="card-${p.id}">
             <div class="product-img-wrap">
-                <img id="pimg-${p.id}" src="${fb}" class="product-img" alt="${p.name}">
+                <img id="pimg-${p.id}" src="${p.img || fb}" class="product-img" alt="${p.name}">
                 <span class="product-badge">${p.cat}</span>
                 <button class="change-img-btn" onclick="openImgManager(${p.id},'${p.name.replace(/'/g,"\\'")}')">
                     <i class="ph ph-camera" style="font-size:0.9rem;"></i> Ganti Foto
@@ -802,17 +745,20 @@ async function renderProducts() {
             </div>
         </div>`;
     });
-
     // Async inject images from IndexedDB (non-blocking)
     filtered.forEach(async p => {
         const src = await getImageSrc(p.id);
         if (src) {
+            // IndexedDB/URL image takes priority (manually set by user)
             const imgEl = document.getElementById('pimg-' + p.id);
             if (imgEl) imgEl.src = src;
+        } else if (p.img) {
+            // Use per-product local image from pict/ folder
+            const imgEl = document.getElementById('pimg-' + p.id);
+            if (imgEl) imgEl.src = p.img;
         }
     });
 }
-
 /* =========================================================
    IMAGE MANAGER
    ========================================================= */
@@ -830,12 +776,10 @@ async function openImgManager(id, name) {
     await refreshSavedGrid();
     await updateStorageBar();
 }
-
 function closeImgManager() {
     document.getElementById('img-manager-modal').classList.remove('open');
     currentEditId = null; pendingImageBlob = null; pendingImageURL = null;
 }
-
 function switchTab(tab, btn) {
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
     document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
@@ -843,12 +787,10 @@ function switchTab(tab, btn) {
     document.getElementById('tab-' + tab).classList.add('active');
     if (tab === 'saved') refreshSavedGrid();
 }
-
 /* --- Drop zone --- */
 function initDropZone() {
     const dropZone  = document.getElementById('drop-zone');
     const fileInput = document.getElementById('hidden-file-input');
-
     fileInput.addEventListener('change', e => {
         if (e.target.files[0]) handleImageFile(e.target.files[0]);
     });
@@ -862,7 +804,6 @@ function initDropZone() {
         else showToast('File harus berupa gambar!');
     });
 }
-
 function handleImageFile(file) {
     pendingImageBlob = file;
     pendingImageURL  = null;
@@ -872,7 +813,6 @@ function handleImageFile(file) {
     document.getElementById('preview-size-badge').textContent = formatBytes(file.size);
     document.getElementById('btn-save-img').disabled = false;
 }
-
 /* --- URL loader --- */
 function loadImageFromURL() {
     const urlVal = document.getElementById('url-input').value.trim();
@@ -889,27 +829,23 @@ function loadImageFromURL() {
     testImg.onerror = () => showToast('URL gambar tidak valid atau tidak bisa dimuat');
     testImg.src = urlVal;
 }
-
 /* --- Save to IndexedDB --- */
 async function saveProductImage() {
     if (!currentEditId) return;
     const btn = document.getElementById('btn-save-img');
     btn.disabled = true;
     btn.innerHTML = '<i class="ph ph-circle-notch" style="animation:spin 1s linear infinite"></i> Menyimpan...';
-
     try {
         // Revoke old cached blob URL
         if (blobURLCache[currentEditId]) {
             URL.revokeObjectURL(blobURLCache[currentEditId]);
             delete blobURLCache[currentEditId];
         }
-
         if (pendingImageURL) {
             await dbPut({ id: currentEditId, url: pendingImageURL, blob: null, savedAt: Date.now() });
         } else if (pendingImageBlob) {
             await dbPut({ id: currentEditId, blob: pendingImageBlob, url: null, savedAt: Date.now() });
         } else { return; }
-
         showToast('Foto berhasil disimpan! ✅');
         closeImgManager();
         // Update just this card's image — no need to re-render everything
@@ -925,7 +861,6 @@ async function saveProductImage() {
         btn.innerHTML = '<i class="ph ph-floppy-disk"></i> Simpan Foto';
     }
 }
-
 /* --- Saved images grid --- */
 async function refreshSavedGrid() {
     const grid = document.getElementById('saved-imgs-grid');
@@ -965,7 +900,6 @@ async function refreshSavedGrid() {
         grid.appendChild(item);
     }
 }
-
 async function deleteSavedImage(id, e) {
     e.stopPropagation();
     if (!confirm('Hapus foto tersimpan untuk produk ini?')) return;
@@ -979,13 +913,11 @@ async function deleteSavedImage(id, e) {
     await updateStorageBar();
     showToast('Foto dihapus');
 }
-
 /* --- Storage usage bar --- */
 async function updateStorageBar() {
     const fill  = document.getElementById('storage-bar-fill');
     const label = document.getElementById('storage-used-label');
     if (!fill || !label) return;
-
     // Use StorageManager API if available
     if (navigator.storage && navigator.storage.estimate) {
         try {
@@ -1006,7 +938,6 @@ async function updateStorageBar() {
     label.textContent = formatBytes(total) + ' di IndexedDB';
     fill.style.width  = '0%';
 }
-
 /* =========================================================
    FILTERS
    ========================================================= */
@@ -1021,7 +952,6 @@ function filterPrice(val) {
     document.getElementById('price-label').innerText = formatIDR(val);
     renderProducts();
 }
-
 /* =========================================================
    CART
    ========================================================= */
@@ -1031,7 +961,7 @@ async function addToCart(id) {
     const exists = cart.find(item => item.id === id);
     if (exists) exists.qty++;
     else {
-        const imgSrc = await getImageSrc(id) || fallbackImages[product.cat] || fallbackImages.alat;
+        const imgSrc = await getImageSrc(id) || product.img || fallbackImages[product.cat] || fallbackImages.alat;
         cart.push({ ...product, img: imgSrc, qty: 1 });
     }
     saveCart();
@@ -1053,7 +983,6 @@ function changeQty(id, delta) {
 function saveCart() { localStorage.setItem('sawit_cart', JSON.stringify(cart)); }
 function getRawTotal()   { return cart.reduce((acc, item) => acc + item.price * item.qty, 0); }
 function getFinalTotal() { return Math.max(0, getRawTotal() - discountAmount); }
-
 async function updateCartUI() {
     const list    = document.getElementById('cart-items-list');
     const totalEl = document.getElementById('cart-total-price');
@@ -1087,12 +1016,10 @@ async function updateCartUI() {
     if (discountAmount > 0) list.innerHTML += `<div class="cart-discount">🏷 Diskon: -${formatIDR(discountAmount)}</div>`;
     if (totalEl) totalEl.innerText = formatIDR(getFinalTotal());
 }
-
 function toggleCart() {
     document.getElementById('cart-sidebar').classList.toggle('active');
     document.getElementById('backdrop').classList.toggle('active');
 }
-
 /* =========================================================
    VOUCHERS
    ========================================================= */
@@ -1103,7 +1030,6 @@ const vouchers = {
     SAWIT20:   { type: 'percent', value: 0.20, min: 0,     label: 'Diskon 20% spesial sawit' },
     FLASHSALE: { type: 'flat',    value: 25000, min: 0,    label: 'Flash sale Rp 25.000 (12:00–14:00)' },
 };
-
 function applyVoucher(code, el) {
     const info  = document.getElementById('voucher-info');
     const total = getRawTotal();
@@ -1124,7 +1050,6 @@ function applyVoucher(code, el) {
     updateCartUI();
     showToast('Voucher ' + code + ' aktif!');
 }
-
 /* =========================================================
    CHECKOUT
    ========================================================= */
@@ -1137,7 +1062,6 @@ function openCheckout() {
     document.getElementById('checkout-modal').classList.add('open');
 }
 function closeCheckout() { document.getElementById('checkout-modal').classList.remove('open'); }
-
 function renderCheckoutSummary() {
     const box = document.getElementById('checkout-items');
     if (!box) return;
@@ -1151,7 +1075,6 @@ function renderCheckoutSummary() {
     html += `<div class="summary-total"><span>Total</span><span>${formatIDR(getFinalTotal())}</span></div>`;
     box.innerHTML = html;
 }
-
 document.getElementById('order-form').addEventListener('submit', function(e) {
     e.preventDefault();
     const nama       = document.getElementById('cust-name').value.trim();
@@ -1173,7 +1096,6 @@ document.getElementById('order-form').addEventListener('submit', function(e) {
             saveCart(); updateCartUI(); renderOrders(); loadNotif();
         });
 });
-
 function showSuccessScreen() {
     document.getElementById('checkout-form-content').innerHTML = `
         <div class="success-screen">
@@ -1186,20 +1108,17 @@ function showSuccessScreen() {
         </div>`;
     setTimeout(closeCheckout, 5000);
 }
-
 /* =========================================================
    ORDERS
    ========================================================= */
 const statusMap  = { pending: { label: 'Menunggu', step: 0, color: 'var(--gold)' }, shipped: { label: 'Dikirim', step: 1, color: 'blue' }, done: { label: 'Selesai', step: 2, color: 'var(--green)' } };
 const steps      = ['pending', 'shipped', 'done'];
 const stepLabels = ['Menunggu', 'Dikirim', 'Selesai'];
-
 function saveOrder(order) {
     let orders = JSON.parse(localStorage.getItem('orders')) || [];
     orders.push({ ...order, status: 'pending', createdAt: new Date().toISOString() });
     localStorage.setItem('orders', JSON.stringify(orders));
 }
-
 function renderOrders() {
     const list = document.getElementById('order-list');
     if (!list) return;
@@ -1234,7 +1153,6 @@ function renderOrders() {
         </div>`;
     }).join('');
 }
-
 function updateOrderStatus(id, status) {
     let orders = JSON.parse(localStorage.getItem('orders')) || [];
     orders = orders.map(o => o.id === id ? { ...o, status, updatedAt: new Date().toISOString() } : o);
@@ -1242,7 +1160,6 @@ function updateOrderStatus(id, status) {
     renderOrders(); loadNotif();
     showToast('Status diubah ke ' + statusMap[status].label);
 }
-
 /* =========================================================
    NOTIFICATIONS
    ========================================================= */
@@ -1260,7 +1177,6 @@ function loadNotif() {
 function toggleNotif() { document.getElementById('notif-panel').classList.toggle('open'); loadNotif(); }
 document.addEventListener('click', e => { const w = document.querySelector('.notif-wrapper'); if (w && !w.contains(e.target)) document.getElementById('notif-panel').classList.remove('open'); });
 setInterval(loadNotif, 3000);
-
 /* =========================================================
    EMAIL
    ========================================================= */
@@ -1271,7 +1187,6 @@ function sendEmailOrder(data) {
         payment: data.pembayaran, order_detail: data.pesanan, total_price: data.total,
     });
 }
-
 /* =========================================================
    THEME
    ========================================================= */
@@ -1282,12 +1197,10 @@ document.getElementById('theme-btn').addEventListener('click', () => {
     icon.classList.toggle('ph-moon');
     icon.classList.toggle('ph-sun');
 });
-
 /* =========================================================
    HAMBURGER
    ========================================================= */
 function toggleMenu() { document.getElementById('mobile-menu').classList.toggle('open'); }
-
 /* =========================================================
    TOAST
    ========================================================= */
@@ -1301,7 +1214,6 @@ function showToast(msg) {
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => toast.classList.remove('show'), 3000);
 }
-
 /* =========================================================
    UTILITIES
    ========================================================= */
@@ -1315,7 +1227,6 @@ function formatBytes(bytes) {
     const i    = Math.floor(Math.log(bytes) / Math.log(k));
     return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + ' ' + sizes[i];
 }
-
 const style = document.createElement('style');
 style.textContent = `@keyframes spin { to { transform: rotate(360deg); } }`;
 document.head.appendChild(style);
