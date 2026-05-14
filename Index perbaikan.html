@@ -713,7 +713,7 @@ const productsData = [
     { id: 31, name: "Minyak Kelapa Sawit Murni",      price: 55000,  cat: "masakan", subcat: "minyak",   rating: 4.9, stock: 60,  desc: "Cold pressed, tanpa kimia" },
     { id: 32, name: "Krim Sawit 500ml",               price: 28000,  cat: "masakan", subcat: "lainnya",  rating: 4.7, stock: 90,  desc: "Krim serbaguna berbasis sawit" },
     { id: 33, name: "Minyak Goreng Premium 2L",       price: 45000,  cat: "masakan", subcat: "minyak",   rating: 4.8, stock: 110, desc: "Formula jernih tahan gorengan berulang" },
-    { id: 34, name: "Sabun Cuci Berbasis Sawit",      price: 12000,  cat: "masakan", subcat: "lainnya",  rating: 4.6, stock: 250, desc: "Ramah lingkungan dari turunan sawit" },
+    { id: 34, name: "Minyak Merah",                   price: 12000,  cat: "masakan", subcat: "lainnya",  rating: 4.6, stock: 250, desc: "Ramah lingkungan dari turunan sawit" },
     { id: 35, name: "Egrek Sawit Profesional",        price: 385000, cat: "alat",    subcat: "panen",    rating: 4.9, stock: 25,  desc: "Alat panen sawit baja stainless berkualitas" },
     { id: 36, name: "Sprayer Manual 16L",             price: 275000, cat: "alat",    subcat: "semprot",  rating: 4.7, stock: 55,  desc: "Sprayer untuk pemupukan & pestisida" },
     { id: 37, name: "Cangkul Kebun Heavy Duty",       price: 165000, cat: "alat",    subcat: "kebun",    rating: 4.5, stock: 80,  desc: "Cangkul kuat untuk tanah perkebunan" },
@@ -729,10 +729,11 @@ const productsData = [
 ];
 
 const fallbackImages = {
-    bibit:   'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400&q=80',
-    GROWVII: 'https://images.unsplash.com/photo-1615486511262-c7ba98a9f458?w=400&q=80',
-    masakan: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&q=80',
-    alat:    'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&q=80',
+    // Pakai gambar lokal agar semua produk yang belum punya foto di IndexedDB tampil dari folder pict/
+    bibit:   'pict/Bibit Sawit DxP Premium.jpg',
+    GROWVII: 'pict/Small Paperbag.jpg',
+    masakan: 'pict/Minyak Goreng Premium 2L.jpg',
+    alat:    'pict/Sprayer Elektrik 16L.webp',
 };
 
 /* =========================================================
